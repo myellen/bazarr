@@ -1280,6 +1280,11 @@ def save_settings():
         settings_general_ignore_pgs = 'False'
     else:
         settings_general_ignore_pgs = 'True'
+    settings_general_ignore_vob = request.forms.get('settings_general_ignore_vob')
+    if settings_general_ignore_vob is None:
+        settings_general_ignore_vob = 'False'
+    else:
+        settings_general_ignore_vob = 'True'
     settings_general_adaptive_searching = request.forms.get('settings_general_adaptive_searching')
     if settings_general_adaptive_searching is None:
         settings_general_adaptive_searching = 'False'
