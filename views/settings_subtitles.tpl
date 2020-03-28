@@ -234,7 +234,7 @@
                                 <label>Ignore Embedded VOB Subtitles</label>
                             </div>
                             <div class="one wide column">
-                                <div id="settings_ignore_vob" class="ui toggle checkbox" data-ignorepgs={{settings.general.getboolean('ignore_vob_subs')}}>
+                                <div id="settings_ignore_vob" class="ui toggle checkbox" data-ignorevob={{settings.general.getboolean('ignore_vob_subs')}}>
                                     <input name="settings_general_ignore_vob" type="checkbox">
                                     <label></label>
                                 </div>
