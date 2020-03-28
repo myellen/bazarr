@@ -228,6 +228,25 @@
                                 </div>
                             </div>
                         </div>
+                        
+                        <div class="middle aligned row">
+                            <div class="right aligned four wide column">
+                                <label>Ignore Embedded VOB Subtitles</label>
+                            </div>
+                            <div class="one wide column">
+                                <div id="settings_ignore_vob" class="ui toggle checkbox" data-ignorepgs={{settings.general.getboolean('ignore_vob_subs')}}>
+                                    <input name="settings_general_ignore_vob" type="checkbox">
+                                    <label></label>
+                                </div>
+                            </div>
+                            <div class="collapsed column">
+                                <div class="collapsed center aligned column">
+                                    <div class="ui basic icon" data-tooltip="Ignores VOB Subtitles in Embedded Subtitles detection. Only relevant if 'Use embedded Subtitles' is enabled." data-inverted="">
+                                        <i class="help circle large icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="middle aligned row">
                             <div class="right aligned four wide column">
