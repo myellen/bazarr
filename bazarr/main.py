@@ -1385,6 +1385,7 @@ def save_settings():
     settings.general.use_embedded_subs = text_type(settings_general_embedded)
     settings.general.utf8_encode = text_type(settings_general_utf8_encode)
     settings.general.ignore_pgs_subs = text_type(settings_general_ignore_pgs)
+    settings.general.ignore_vob_subs = text_type(settings_general_ignore_vob)
     settings.general.adaptive_searching = text_type(settings_general_adaptive_searching)
     settings.general.multithreading = text_type(settings_general_multithreading)
     
