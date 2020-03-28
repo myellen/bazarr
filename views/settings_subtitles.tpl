@@ -639,6 +639,12 @@
                         $("#settings_ignore_pgs").checkbox('uncheck');
                     }
 
+                    if ($('#settings_ignore_vob').data("ignorevob") === "True") {
+                        $("#settings_ignore_vob").checkbox('check');
+                    } else {
+                        $("#settings_ignore_vob").checkbox('uncheck');
+                    }
+
                     if ($('#settings_adaptive_searching').data("adaptive") === "True") {
                         $("#settings_adaptive_searching").checkbox('check');
                     } else {
